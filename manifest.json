@@ -1,0 +1,20 @@
+{
+	"manifest_version" : 2,
+	"name" : "Fz Add-On",
+	"version" : "1.0",
+	"description" : "This add-on helps students of SAIC navigator through the comlicated jargon-full Self Service system.",
+
+	"icons" : {
+		"48" : "icons/icon-48.png"
+	},
+
+	"permissions" : [
+		"activeTab"
+	],
+
+	"browser_action" : {
+		"default_icon" : "icons/icon-48.png",
+		"default_title" : "Fz Add-On",
+		"default_popup" : "popup/popup.html"
+	}
+}
